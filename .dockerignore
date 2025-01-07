@@ -1,0 +1,134 @@
+.git/
+.gitignore
+
+# Ignore Python specific caches and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore distribution, packaging, and build artifacts
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignore PyInstaller artifacts
+*.manifest
+*.spec
+
+# Ignore installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore unit test and coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Ignore translations
+*.mo
+*.pot
+
+# Ignore Django specific files
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore Flask specific files
+instance/
+
+# Ignore Scrapy stuff
+.scrapy
+
+# Ignore Sphinx documentation build artifacts
+docs/_build/
+
+# Ignore PyBuilder target directory
+target/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore IPython profile_default
+profile_default/
+
+# Ignore pyenv version file
+.python-version
+
+# Ignore Celery beat schedule file
+celerybeat-schedule
+
+# Ignore SageMath parsed files
+*.sage.py
+
+# Ignore environment variable configuration files
+.env
+.env.test
+.env.development
+.env.production
+.env.local
+
+# Ignore Docker Compose override files and other Docker-related artifacts
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Ignore Kubernetes configuration files (if using)
+*.yaml
+*.yml
+
+# Ignore logs and temporary files
+logs/
+*.log
+tmp/
+*.swp
+*~
+
+# Ignore IDEs and editors specific files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.idea/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Node.js specific (if using npm or yarn)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Ignore Go specific (if using Go)
+vendor/
+*.out
+*.test
+*.prof
